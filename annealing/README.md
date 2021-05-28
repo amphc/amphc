@@ -23,5 +23,9 @@ $ pyddc -O3 program.py -o program_opt.py
 $ python program_opt.py
 ```
 
-## Note
-* Link to Intrepydd HP: https://hpcgarage.github.io/intrepyddguide/
+## Publications
+* "Intrepydd: Performance, productivity, and portability for data science application kernels".
+  Tong Zhou, Jun Shirako, Anirudh Jain, Sriseshan Srikanth, Thomas M. Conte, Richard Vuduc, and Vivek Sarkar. 
+  In Proceedings of the 2020 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software (Onward! 2020).
+  pages 65–83. 2020.
+
