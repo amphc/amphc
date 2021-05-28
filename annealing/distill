@@ -1,0 +1,7 @@
+#!/bin/sh
+
+infile=$1
+outfile=distilled_$1
+python $AMPHCHOME/distillation/distill.py $infile
+cp distill_output/propagate/$infile ./$outfile
+rm -r distill_output

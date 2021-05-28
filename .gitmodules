@@ -1,0 +1,11 @@
+[submodule "distillation/pytype"]
+	path = distillation/pytype
+	url = https://github.com/MingyuGuan/pytype.git
+	branch = distillation
+[submodule "distillation/retype"]
+	path = distillation/retype
+	url = https://github.com/MingyuGuan/retype.git
+	branch = distillation
+[submodule "distillation/MonkeyType"]
+	path = distillation/MonkeyType
+	url = https://github.com/Instagram/MonkeyType.git

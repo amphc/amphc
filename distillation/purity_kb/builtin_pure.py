@@ -1,0 +1,1 @@
+builtin_pure_funcs = [len, int, range]

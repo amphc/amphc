@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+
+import frontend.main as fe
+import midend.main as me
+import backend.main as be
+
+if __name__ == "__main__":
+    ast, opts = fe.parse()
+    me.optimize(ast, opts)
+    be.codegen(ast, opts)
